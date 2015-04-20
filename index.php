@@ -1,4 +1,4 @@
-<?php 
+ <?php 
 /**
  * The index page of Optimizer
  *
