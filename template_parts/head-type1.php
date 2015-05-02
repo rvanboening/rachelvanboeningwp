@@ -38,7 +38,18 @@ global $optimizer;?>
                 <!--MOBILE MENU END--> 
                 
                 <div id="topmenu" class="<?php if ('header' == $optimizer['social_bookmark_pos'] ) { ?> has_bookmark<?php } ?>">
-                <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+                    
+                    <ul>
+                      <li><a href="x">Home</a></li>
+                      <li><a href="x">Code Samples</a></li>
+                      <li><a href="x">Web Examples</a></li>
+                      <li><a href="x">Graphic Design</a></li>
+                      <li><a href="https://www.linkedin.com/in/rachelvanboening">Resume</a></li>
+                    </ul>
+                  
+<!--Nav Bar Coded Out -->
+                <!-- <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?> -->
+                
                 <!--LOAD THE HEADR SOCIAL LINKS-->
                 <?php if ('header' == $optimizer['social_bookmark_pos']) { ?>
                     <div class="head_soc"><?php get_template_part('framework/core','social'); ?></div>

@@ -11,9 +11,10 @@
 global $optimizer;?>
 
 <?php if($optimizer['navigation_type'] !== 'no_nav') { ?>
-
+    
         <?php if('numbered' == $optimizer['navigation_type'] || 'numbered_ajax' == $optimizer['navigation_type'] ) { ?>
             <div class="ast_pagenav">
+                
                 <?php
                     global $wp_query;
                     $big = 999999999; // need an unlikely integer

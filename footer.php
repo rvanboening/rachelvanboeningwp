@@ -43,7 +43,8 @@ global $optimizer;?>
                                 <?php $foot = html_entity_decode($optimizer['footer_text_id']); $foot = stripslashes($foot); echo do_shortcode($foot); ?>
                         	</div>
                         <?php }else{ ?>
-        					<div class="copytext"><?php printf( __( 'Theme by %s', 'optimizer' ), '<a target="_blank" href="https://www.layerthemes.com/">Layerthemes</a>' ); ?></div>
+        					<div class="copytext">Rachel VanBoneing<br>
+                                vanbeoningrr@gmail.com</div>
         				<?php } ?>
                     <!--Site Copyright Text END-->
                
